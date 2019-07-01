@@ -30,3 +30,41 @@ code {
 .navbar h1 {
   margin: 10px 0;
 }
+
+.book-list {
+  padding: 20px;
+}
+
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.book-list li {
+  background: #6d3d6d;
+  padding: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.book-list .author {
+  color: #ddd;
+  font-size: 0.9rem;
+}
+
+.empty {
+  padding: 20px;
+  text-align: center;
+}
